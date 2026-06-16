@@ -1,0 +1,44 @@
+# Env / secrets
+.env
+.env.local
+*.env
+!.env.example
+
+# Python
+backend/.venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+npm-debug.log*
+yarn-error.log*
+
+# Build / coverage
+dist/
+build/
+coverage/
+.coverage
+htmlcov/
+
+# OS / IDE
+.DS_Store
+.idea/
+*.swp
+.vscode/
+
+# Amplify
+amplify/.config/local-*
+amplify/backend/awscloudformation/
+.amplify/
+.claude/
+JOB_DETAILS.md
+role-trust-policy.json
