@@ -1,7 +1,6 @@
 # MongoDB on AWS — Demonstration App
 
-An interactive demo suite for showcasing **MongoDB Atlas (on AWS)** capabilities to a
-live audience. Built per [`JOB_DETAILS.md`](./JOB_DETAILS.md).
+An interactive demo suite for showcasing **MongoDB Atlas (on AWS)** capabilities.
 
 - **Frontend:** Next.js 15 (App Router) + **LeafyGreen UI** (MongoDB's design system)
 - **Backend:** Python FastAPI (async PyMongo)
